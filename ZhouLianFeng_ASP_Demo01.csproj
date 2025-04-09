@@ -118,7 +118,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Aspxs\OK.aspx" />
     <Content Include="Aspxs\WebTest01\WebTopic01.aspx" />
     <Content Include="Aspxs\WebTest01\WebTopic02.aspx" />
     <Content Include="Aspxs\WebTest01\WebTopic03.aspx" />
@@ -141,13 +140,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aspxs\OK.aspx.cs">
-      <DependentUpon>OK.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Aspxs\OK.aspx.designer.cs">
-      <DependentUpon>OK.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Aspxs\WebTest01\WebTopic01.aspx.cs">
       <DependentUpon>WebTopic01.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
