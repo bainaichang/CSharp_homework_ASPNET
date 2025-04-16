@@ -130,6 +130,10 @@
     <Content Include="Aspxs\WebTest01\WebTopic10.aspx" />
     <Content Include="Aspxs\WebTest01\WebTopic11.aspx" />
     <Content Include="Aspxs\WebTest01\WebTopic12.aspx" />
+    <Content Include="Aspxs\WebTest01\WebTopic14.aspx" />
+    <Content Include="Aspxs\WebTest01\WebTopic13.aspx" />
+    <Content Include="Aspxs\WebTest01\WebTopic15.aspx" />
+    <Content Include="Aspxs\WebTest01\WebTopic16.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
     <Content Include="Picture\Image_1711671259296.jpg" />
@@ -137,6 +141,7 @@
     <Content Include="Picture\Image_1711671261995.jpg" />
     <Content Include="Picture\Image_1711671263820.jpg" />
     <Content Include="Picture\Image_1711671272583.jpg" />
+    <Content Include="Picture\work.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -224,6 +229,34 @@
     <Compile Include="Aspxs\WebTest01\WebTopic12.aspx.designer.cs">
       <DependentUpon>WebTopic12.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Aspxs\WebTest01\WebTopic14.aspx.cs">
+      <DependentUpon>WebTopic14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest01\WebTopic14.aspx.designer.cs">
+      <DependentUpon>WebTopic14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest01\WebTopic13.aspx.cs">
+      <DependentUpon>WebTopic13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest01\WebTopic13.aspx.designer.cs">
+      <DependentUpon>WebTopic13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest01\WebTopic15.aspx.cs">
+      <DependentUpon>WebTopic15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest01\WebTopic15.aspx.designer.cs">
+      <DependentUpon>WebTopic15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest01\WebTopic16.aspx.cs">
+      <DependentUpon>WebTopic16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest01\WebTopic16.aspx.designer.cs">
+      <DependentUpon>WebTopic16.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -247,6 +280,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Aspxs\WebTest02\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
