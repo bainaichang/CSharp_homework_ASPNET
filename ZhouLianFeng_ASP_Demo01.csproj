@@ -71,6 +71,7 @@
     <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
     </Reference>
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
@@ -134,6 +135,15 @@
     <Content Include="Aspxs\WebTest01\WebTopic13.aspx" />
     <Content Include="Aspxs\WebTest01\WebTopic15.aspx" />
     <Content Include="Aspxs\WebTest01\WebTopic16.aspx" />
+    <Content Include="Aspxs\WebTest02\Web2\admin.aspx" />
+    <Content Include="Aspxs\WebTest02\Web2\OK.aspx" />
+    <Content Include="Aspxs\WebTest02\Web2\WebForm02.aspx" />
+    <Content Include="Aspxs\WebTest02\Web4\a.aspx" />
+    <Content Include="Aspxs\WebTest02\Web4\b.aspx" />
+    <Content Include="Aspxs\WebTest02\Web5\Login.aspx" />
+    <Content Include="Aspxs\WebTest02\Web5\WebForm05.aspx" />
+    <Content Include="Aspxs\WebTest02\WebForm01.aspx" />
+    <Content Include="Aspxs\WebTest02\WebForm03.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
     <Content Include="Picture\Image_1711671259296.jpg" />
@@ -257,6 +267,69 @@
     <Compile Include="Aspxs\WebTest01\WebTopic16.aspx.designer.cs">
       <DependentUpon>WebTopic16.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Aspxs\WebTest02\Web2\admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web2\admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web2\OK.aspx.cs">
+      <DependentUpon>OK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web2\OK.aspx.designer.cs">
+      <DependentUpon>OK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web2\WebForm02.aspx.cs">
+      <DependentUpon>WebForm02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web2\WebForm02.aspx.designer.cs">
+      <DependentUpon>WebForm02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web4\a.aspx.cs">
+      <DependentUpon>a.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web4\a.aspx.designer.cs">
+      <DependentUpon>a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web4\b.aspx.cs">
+      <DependentUpon>b.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web4\b.aspx.designer.cs">
+      <DependentUpon>b.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web5\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web5\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web5\WebForm05.aspx.cs">
+      <DependentUpon>WebForm05.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web5\WebForm05.aspx.designer.cs">
+      <DependentUpon>WebForm05.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\WebForm01.aspx.cs">
+      <DependentUpon>WebForm01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\WebForm01.aspx.designer.cs">
+      <DependentUpon>WebForm01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\WebForm03.aspx.cs">
+      <DependentUpon>WebForm03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\WebForm03.aspx.designer.cs">
+      <DependentUpon>WebForm03.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -280,8 +353,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Aspxs\WebTest02\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
