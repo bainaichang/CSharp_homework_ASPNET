@@ -36,11 +36,11 @@
     <form id="form1" runat="server">
         <div>
 
-            用户名:<asp:TextBox ID="TextBox1" runat="server" AutoPostBack="True" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+            用户名:<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <br />
             密码:<asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
             <br />
-            <asp:Button ID="Button1" runat="server" Font-Names="JetBrains Mono SemiBold" Text="Login" />
+            <asp:Button ID="Button1" runat="server" Font-Names="JetBrains Mono SemiBold" Text="Login" PostBackUrl="~/Aspxs/WebTest02/Web5/Login.aspx" />
 
         </div>
     </form>

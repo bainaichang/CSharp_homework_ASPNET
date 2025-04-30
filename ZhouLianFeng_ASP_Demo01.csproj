@@ -142,6 +142,13 @@
     <Content Include="Aspxs\WebTest02\Web4\b.aspx" />
     <Content Include="Aspxs\WebTest02\Web5\Login.aspx" />
     <Content Include="Aspxs\WebTest02\Web5\WebForm05.aspx" />
+    <Content Include="Aspxs\WebTest02\Web6\cookie.aspx" />
+    <Content Include="Aspxs\WebTest02\Web6\cookielogin.aspx" />
+    <Content Include="Aspxs\WebTest02\Web7\Session.aspx" />
+    <Content Include="Aspxs\WebTest02\Web7\SessionLogin.aspx" />
+    <Content Include="Aspxs\WebTest02\Web8\applicationLogin.aspx" />
+    <Content Include="Aspxs\WebTest02\Web9\chat.aspx" />
+    <Content Include="Aspxs\WebTest02\Web9\loginuser.aspx" />
     <Content Include="Aspxs\WebTest02\WebForm01.aspx" />
     <Content Include="Aspxs\WebTest02\WebForm03.aspx" />
     <Content Include="Global.asax" />
@@ -315,6 +322,55 @@
     </Compile>
     <Compile Include="Aspxs\WebTest02\Web5\WebForm05.aspx.designer.cs">
       <DependentUpon>WebForm05.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web6\cookie.aspx.cs">
+      <DependentUpon>cookie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web6\cookie.aspx.designer.cs">
+      <DependentUpon>cookie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web6\cookielogin.aspx.cs">
+      <DependentUpon>cookielogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web6\cookielogin.aspx.designer.cs">
+      <DependentUpon>cookielogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web7\Session.aspx.cs">
+      <DependentUpon>Session.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web7\Session.aspx.designer.cs">
+      <DependentUpon>Session.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web7\SessionLogin.aspx.cs">
+      <DependentUpon>SessionLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web7\SessionLogin.aspx.designer.cs">
+      <DependentUpon>SessionLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web8\applicationLogin.aspx.cs">
+      <DependentUpon>applicationLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web8\applicationLogin.aspx.designer.cs">
+      <DependentUpon>applicationLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web9\chat.aspx.cs">
+      <DependentUpon>chat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web9\chat.aspx.designer.cs">
+      <DependentUpon>chat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web9\loginuser.aspx.cs">
+      <DependentUpon>loginuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest02\Web9\loginuser.aspx.designer.cs">
+      <DependentUpon>loginuser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Aspxs\WebTest02\WebForm01.aspx.cs">
       <DependentUpon>WebForm01.aspx</DependentUpon>

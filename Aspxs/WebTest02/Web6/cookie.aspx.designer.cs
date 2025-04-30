@@ -7,10 +7,10 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace ZhouLianFeng_ASP_Demo01.Aspxs.WebTest02.Web5 {
+namespace ZhouLianFeng_ASP_Demo01.Aspxs.WebTest02.Web6 {
 
 
-    public partial class Login {
+    public partial class cookie {
 
         /// <summary>
         /// form1 控件。
@@ -22,24 +22,12 @@ namespace ZhouLianFeng_ASP_Demo01.Aspxs.WebTest02.Web5 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label1 控件。
+        /// Label2 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
-        /// PreviousPage 属性。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的属性。
-        /// </remarks>
-        public new ZhouLianFeng_ASP_Demo01.Aspxs.WebTest02.Web5.WebForm05 PreviousPage {
-            get {
-                return ((ZhouLianFeng_ASP_Demo01.Aspxs.WebTest02.Web5.WebForm05)(base.PreviousPage));
-            }
-        }
+        protected global::System.Web.UI.WebControls.Label Label2;
     }
 }

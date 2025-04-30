@@ -13,8 +13,6 @@ namespace ZhouLianFeng_ASP_Demo01.Aspxs.WebTest02.Web5 {
 
         
 
-        protected void TextBox1_TextChanged (object sender, EventArgs e) {
-            Button1.PostBackUrl = $"Login.aspx?username={TextBox1.Text}";
-        }
+        
     }
 }
