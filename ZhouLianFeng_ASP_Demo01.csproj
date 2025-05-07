@@ -151,6 +151,10 @@
     <Content Include="Aspxs\WebTest02\Web9\loginuser.aspx" />
     <Content Include="Aspxs\WebTest02\WebForm01.aspx" />
     <Content Include="Aspxs\WebTest02\WebForm03.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm1.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm2.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm3.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm4.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
     <Content Include="Picture\Image_1711671259296.jpg" />
@@ -386,6 +390,39 @@
     <Compile Include="Aspxs\WebTest02\WebForm03.aspx.designer.cs">
       <DependentUpon>WebForm03.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Aspxs\WebTest03\StuInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StuInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -399,6 +436,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Aspxs\WebTest03\StuInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>StuInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Aspxs\WebTest03\StuInfo.dbml.layout">
+      <DependentUpon>StuInfo.dbml</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

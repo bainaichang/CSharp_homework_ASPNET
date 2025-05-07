@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="StuInfo" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.Course" Member="Course">
+    <Type Name="Course">
+      <Column Name="cid" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cname" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cDes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Course_Student" Member="Student" ThisKey="cid" OtherKey="cid" Type="Student" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Student" Member="Student">
+    <Type Name="Student">
+      <Column Name="name" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sex" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="img" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cid" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="score" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sclass" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Course_Student" Member="Course" ThisKey="cid" OtherKey="cid" Type="Course" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
