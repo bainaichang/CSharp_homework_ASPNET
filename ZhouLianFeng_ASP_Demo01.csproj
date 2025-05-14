@@ -155,6 +155,10 @@
     <Content Include="Aspxs\WebTest03\WebForm2.aspx" />
     <Content Include="Aspxs\WebTest03\WebForm3.aspx" />
     <Content Include="Aspxs\WebTest03\WebForm4.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm5.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm6.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm7.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm8.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
     <Content Include="Picture\Image_1711671259296.jpg" />
@@ -390,6 +394,9 @@
     <Compile Include="Aspxs\WebTest02\WebForm03.aspx.designer.cs">
       <DependentUpon>WebForm03.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Aspxs\WebTest03\StuInfo.cs">
+      <DependentUpon>StuInfo.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Aspxs\WebTest03\StuInfo.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -422,6 +429,34 @@
     </Compile>
     <Compile Include="Aspxs\WebTest03\WebForm4.aspx.designer.cs">
       <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm5.aspx.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm5.aspx.designer.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm6.aspx.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm6.aspx.designer.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm7.aspx.cs">
+      <DependentUpon>WebForm7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm7.aspx.designer.cs">
+      <DependentUpon>WebForm7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm8.aspx.cs">
+      <DependentUpon>WebForm8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm8.aspx.designer.cs">
+      <DependentUpon>WebForm8.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

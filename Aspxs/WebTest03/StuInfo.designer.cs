@@ -27,25 +27,25 @@ namespace ZhouLianFeng_ASP_Demo01.Aspxs.WebTest03
 	{
 		
 		private static System.Data.Linq.Mapping.MappingSource mappingSource = new AttributeMappingSource();
-
-        private static string connection =
-            "Data Source=BaiNaiChangPC;Initial Catalog=StuInfo;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
-        #region 可扩展性方法定义
-        partial void OnCreated();
+		
+    #region 可扩展性方法定义
+    partial void OnCreated();
     partial void InsertCourse(Course instance);
     partial void UpdateCourse(Course instance);
     partial void DeleteCourse(Course instance);
     partial void InsertStudent(Student instance);
     partial void UpdateStudent(Student instance);
     partial void DeleteStudent(Student instance);
-        #endregion
-
-        public DataClasses1DataContext () :
-            base(connection, mappingSource) {
-            OnCreated();
-        }
-
-        public DataClasses1DataContext(string connection) : 
+    #endregion
+		
+		public DataClasses1DataContext() : 
+				base("Data Source=BaiNaiChangPC;Initial Catalog=StuInfo;Integrated Security=True;TrustS" +
+						"erverCertificate=True;Context Connection=False", mappingSource)
+		{
+			OnCreated();
+		}
+		
+		public DataClasses1DataContext(string connection) : 
 				base(connection, mappingSource)
 		{
 			OnCreated();
@@ -295,12 +295,8 @@ namespace ZhouLianFeng_ASP_Demo01.Aspxs.WebTest03
 			this._Course = default(EntityRef<Course>);
 			OnCreated();
 		}
-
-        public override string ToString() {
-            return $"学生id:{id},名字:{name},性别:{sex},班级:{sclass},课程id:{cid},img:{img}";
-        }
-
-        [global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_name", DbType="NVarChar(20)")]
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_name", DbType="NVarChar(20)")]
 		public string name
 		{
 			get

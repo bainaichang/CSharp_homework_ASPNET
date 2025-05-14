@@ -6,12 +6,9 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace ZhouLianFeng_ASP_Demo01.Aspxs.WebTest03 {
-    public partial class WebForm41 : System.Web.UI.Page{
-        private DataClasses1DataContext db = new DataClasses1DataContext();
+    public partial class WebForm4 : System.Web.UI.Page {
         protected void Page_Load (object sender, EventArgs e) {
-            var result = db.Student.Select(s => s);
-            GridView1.DataSource = result;
-            GridView1.DataBind();
+
         }
     }
 }

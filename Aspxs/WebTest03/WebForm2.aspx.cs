@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Web;
@@ -7,6 +8,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace ZhouLianFeng_ASP_Demo01.Aspxs.WebTest03 {
+    // string connectionString = ConfigurationManager.ConnectionStrings["WebTest01ConnectionString"].ConnectionString;
     public partial class WebForm2 : System.Web.UI.Page {
         private DataClasses1DataContext db = new DataClasses1DataContext();
         protected void Page_Load (object sender, EventArgs e) {

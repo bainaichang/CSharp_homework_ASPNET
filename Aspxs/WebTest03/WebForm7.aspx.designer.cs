@@ -10,7 +10,7 @@
 namespace ZhouLianFeng_ASP_Demo01.Aspxs.WebTest03 {
 
 
-    public partial class WebForm41 {
+    public partial class WebForm7 {
 
         /// <summary>
         /// form1 控件。
