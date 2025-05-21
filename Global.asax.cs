@@ -16,7 +16,7 @@ namespace ZhouLianFeng_ASP_Demo01{
             string url = Request.Url.AbsolutePath;
             if (url.Equals("/")) {
                 // Response.Redirect("~/Aspxs/WebTest02/Web9/loginuser.aspx");
-                Response.Redirect("~/Aspxs/WebTest03/WebForm8.aspx");
+                Response.Redirect("~/Aspxs/WebTest03/WebForm11.aspx");
             }
         }
         
