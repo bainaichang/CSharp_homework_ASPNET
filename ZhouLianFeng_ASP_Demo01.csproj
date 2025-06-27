@@ -154,6 +154,10 @@
     <Content Include="Aspxs\WebTest03\WebForm1.aspx" />
     <Content Include="Aspxs\WebTest03\WebForm10.aspx" />
     <Content Include="Aspxs\WebTest03\WebForm11.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm12.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm13_1.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm13_main.aspx" />
+    <Content Include="Aspxs\WebTest03\WebForm14.aspx" />
     <Content Include="Aspxs\WebTest03\WebForm2.aspx" />
     <Content Include="Aspxs\WebTest03\WebForm3.aspx" />
     <Content Include="Aspxs\WebTest03\WebForm4.aspx" />
@@ -425,6 +429,34 @@
     </Compile>
     <Compile Include="Aspxs\WebTest03\WebForm11.aspx.designer.cs">
       <DependentUpon>WebForm11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm12.aspx.cs">
+      <DependentUpon>WebForm12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm12.aspx.designer.cs">
+      <DependentUpon>WebForm12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm13_1.aspx.cs">
+      <DependentUpon>WebForm13_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm13_1.aspx.designer.cs">
+      <DependentUpon>WebForm13_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm13_main.aspx.cs">
+      <DependentUpon>WebForm13_main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm13_main.aspx.designer.cs">
+      <DependentUpon>WebForm13_main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm14.aspx.cs">
+      <DependentUpon>WebForm14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aspxs\WebTest03\WebForm14.aspx.designer.cs">
+      <DependentUpon>WebForm14.aspx</DependentUpon>
     </Compile>
     <Compile Include="Aspxs\WebTest03\WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
